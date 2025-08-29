@@ -57,12 +57,6 @@ function addElement(title, hotLine) {
 }
 
 
-
-
-
-
-
-
 // Add item in the call history
 function addElement(title, hotLine) {
     const now = new Date();
@@ -84,11 +78,6 @@ function addElement(title, hotLine) {
     aside.appendChild(divParent);
 }
 
-
-
-
-
-
 //Clear button
 document.getElementById("clearAll").addEventListener("click",function(){
   const asides=document.querySelectorAll(".asideproperty")
@@ -96,8 +85,6 @@ document.getElementById("clearAll").addEventListener("click",function(){
     aside.remove()
    }
 })
-
-
 
 
 // Copy button functionality
