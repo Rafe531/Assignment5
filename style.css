@@ -1,0 +1,298 @@
+/* .hind-madurai-light {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; 
+}
+/* nav part */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.first-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-nav-pic{
+    width: 50px;
+    height: 50px;
+}
+.first-nav-text{
+    color: #006747;
+}
+.second-nav{
+    display: flex;
+    /* max-width: 397px;
+    height: 52px; */
+}
+.sub-nav{
+    display: flex;
+    width: 120px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: rgba(65, 255, 198, 0.1);
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.sub-nav2{
+    background-color: #00A63E;
+}
+.nav-pic{
+    width: 30px;
+    height: 30px;
+}
+.number{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+.number2{
+    color: #FFFFFF;
+
+}
+
+/* banner */
+.banner{
+    background: linear-gradient(90deg, #013223 0%, #006747 49.99%, #013223 100%);
+    height: 239px;
+    width: 100%;
+    /* padding-bottom: 21px;
+    padding-top: 21px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+.banner-pic{
+    width: 92px;
+    height: 92px;
+    margin-top: 21px;
+}
+.banner-title{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 11px;
+}
+.banner-text{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 11px;
+    margin-bottom: 21px;
+}
+/* main */
+.main-class{
+    margin-top: 48px;
+    display: grid;
+    /* width: 100%;
+    box-sizing: border-box; */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+    padding: 0 50px;
+    /* margin-left: 50px; */
+} 
+ .comment-nav{
+    display: flex; 
+    justify-content: space-between; 
+    /* gap: 100px; */
+    grid-row: span 3;
+    margin-top: 0;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+}  
+/* card */
+
+.card{
+    padding: 32px;
+    /* background-color: aqua; */
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+}
+.card-pic{
+    width: 60px;
+    height: 60px;
+    background-color: #FFE3E2;
+    margin-bottom: 16px;
+    border-radius: 12px;
+}
+.card-pic2{
+    width: 60px;
+    height: 60px;
+    background-color: #DFEFFF;
+    margin-bottom: 16px;
+    border-radius: 12px;
+}
+.card-title{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.card-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.14rem;
+    color: #5C5C5C;
+    margin-bottom: 24px;
+}
+.numbers{
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 2px;
+}
+.text{
+    width: 53px; 
+    height: 37px;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 1.15rem;
+    color: #5C5C5C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.btn{
+    display: flex;
+    gap: 8px;
+}
+.white{
+    /* width: 180px; */
+    background-color: #FFFFFF;
+    border: 1px solid #D4D6D5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #5C5C5C;
+}
+.green{
+    /* width: 180px; */
+    background-color: #00A63E;
+    border: 1px solid #D4D6D5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    
+}
+.text2{
+    width: 79px;
+}
+.text3{
+    width: 61px;
+}
+.text4{
+    width: 83px;
+}
+.text5{
+    width: 68px;
+}
+.text6{
+    width: 73px;
+}
+.text7{
+    width: 109px;
+}
+.text8{
+    width: 69px;
+}
+.text9{
+    width: 79px;
+}
+
+
+ /* .main-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}  */
+/* comment history */
+ /* .comment-nav{
+    display: flex; 
+    justify-content: space-between; 
+    gap: 100px;
+    grid-row: span 3;
+    margin-top: 0;
+}   */
+.clear-comment{
+    width: 110px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #00A63E;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.call-icon{
+    width: 24px;
+    height: 24px;
+}
+.comment-nav-title{
+    display: flex;
+    /* text-align: center; */
+    /* align-items: center;  */
+    gap: 8px;
+    /* justify-content: center; */
+    margin-left: 24px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #111111;
+}
